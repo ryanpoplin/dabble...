@@ -44,14 +44,24 @@
     if ([self.managedObjectContext save:&savingError]) {
         
         return YES;
-    
+        
     } else {
-    
+        
         NSLog(@"Failed to create a new shortcut. Error = %@", savingError);
-    
+        
     }
     
     return result;
+    
+}
+
+- (void)coreDataShortcut {
+    
+    NSLog(@"... ... ...");
+    
+    [self createNewShortcutWithShortcut:textViewValue];
+    
+    textViewValue = nil;
     
 }
 
