@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="6244" systemVersion="13F34" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="Shortcut" representedClassName="Shortcut" syncable="YES">
+        <attribute name="shortcut" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Shortcut" positionX="-45" positionY="0" width="128" height="60"/>
+    </elements>
+</model>
